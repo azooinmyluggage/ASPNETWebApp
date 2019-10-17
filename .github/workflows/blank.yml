@@ -15,6 +15,9 @@ jobs:
     - name: Run a one-line script
       run: dir
       
+    - name: Run a one-line script
+      run: echo $GITHUB_WORKSPACE
+      
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
